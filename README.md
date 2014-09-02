@@ -6,8 +6,8 @@ Tomcat
 - 將Tomcat的靜態檔案cache機制關閉 
   - 將Tomcat/work/Catalina/localhost下的東西刪除，否則會留下之前cache的東西
   - 將Tomcat/conf/context.xml中的Context改為如下 
-```sh
-<Context cacheMaxSize ="0" cacheTTL="1" cachingAllowed="false" antiResourceLocking="false">
-```
+  ```sh
+  <Context cacheMaxSize ="0" cacheTTL="1" cachingAllowed="false" antiResourceLocking="false">
+  ```
 
 
