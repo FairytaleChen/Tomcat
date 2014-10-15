@@ -34,4 +34,5 @@ Tomcat
   此設定為是否Tomcat的目錄可否列表出來。
 - 同一台電腦啟動多個Tomcat
   - 將server.xml中的8080 8005 8009這個port number改為不一樣
+  - 參考連結：http://www.shine8.pro/home/ji-shu-fen-xiang-yu-tao-lun/application-server/tomcat/tong-yi-dian-nao-ru-he-tong-shi-qi-dong-duo-ge-tomcat
 
